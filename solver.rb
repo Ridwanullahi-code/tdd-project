@@ -4,4 +4,7 @@ class Solver
         raise ArgumentError if n < 0
         return n * factorial(n-1)
     end
+
+    def reverse(word)
+    end
 end
