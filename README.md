@@ -8,18 +8,14 @@
 <details>
   <summary>Table of Contents</summary>
 
-- [💎 Awesome Project](#-awesome-project)
-  - [📸 Screenshot](#-screenshot)
+- [🧪 Test Driven Development](#-test-driven-development)
   - [🧰 Tech Stack](#-tech-stack)
   - [✨ Key Features](#-key-features)
-  - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Installation](#installation)
-    - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors](#-authors)
   - [🔭 Future Features](#-future-features)
   - [🤝 Contributing](#-contributing)
@@ -28,68 +24,29 @@
   - [📜 License](#-license)
 </details>
 
-# 💎 Awesome Project
+# 🧪 Test Driven Development
 
-> Describe your project in 1 or 2 sentences.
+This project is created to practice the TDD method using Rspec.
 
-This is a template for **Ruby** projects.
-
-## 📸 Screenshot
-
-<img src="https://via.placeholder.com/468x300?text=App+Screenshot+Here" width=468 height=300 alt="screenshot" />
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🧰 Tech Stack
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- Ruby
+- Rspec
+- Rubocop
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ✨ Key Features
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Demo
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- #factorial: Returns the factorial of given number
+- #reverse: Reverses the given string
+- #fizzbuzz: Returns *fizz*, *buzz* or *fizzbuzz* based on given number
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -97,21 +54,13 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need [Ruby](https://www.ruby-lang.org/en/) installed on your machine.
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
   cd my-project
-  git clone git@github.com:IndieCoderMM/awesome-project.git .
+  git clone git@github.com:Ridwanullahi-code/tdd-project.git .
 ```
 
 ### Installation
@@ -119,74 +68,48 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  gem install
+  bundle install
 ```
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec spec --format doc
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors
 
-> Mention all of the collaborators of this project.
+👨‍🚀 **Ajayi Ridwan**
+
+- GitHub: [@Ridwanullahi-code](https://github.com/Ridwanullahi-code)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ajayi-ridwan/)
+
+👨‍🚀 **Yetemegn Lemma**
+
+- GitHub: [@yetemegn-telaye](https://github.com/yetemegn-telaye)
+- Twitter: [@Yetemegn19](https://twitter.com/Yetemegn19)
+- Gmail: lemma19yet@gmail.com
 
 👨‍🚀 **Hein Thant**
 
-- GitHub: [@githubhandle](https://github.com/indiecodermm)
+- GitHub: [@IndieCoderMM](https://github.com/indiecodermm)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/hthantoo)
 - Gmail: hthant00chk@gmail.com
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features 
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Add more solver methods
+- [ ] Add console UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,11 +145,11 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/indiecodermm/ruby-template
-[contributors-url]: https://github.com/indiecodermm/ruby-template/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/indiecodermm/ruby-template
-[stars-url]: https://github.com/indiecodermm/ruby-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/indiecodermm/ruby-template
-[issues-url]: https://github.com/indiecodermm/ruby-template/issues
-[license-shield]: https://img.shields.io/github/license/indiecodermm/ruby-template
-[license-url]: https://github.com/indiecodermm/ruby-template/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Ridwanullahi-code/tdd-project
+[contributors-url]: https://github.com/Ridwanullahi-code/tdd-project/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/Ridwanullahi-code/tdd-project
+[stars-url]: https://github.com/Ridwanullahi-code/tdd-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Ridwanullahi-code/tdd-project
+[issues-url]: https://github.com/Ridwanullahi-code/tdd-project/issues
+[license-shield]: https://img.shields.io/github/license/Ridwanullahi-code/tdd-project
+[license-url]: https://github.com/Ridwanullahi-code/tdd-project/blob/main/LICENSE
