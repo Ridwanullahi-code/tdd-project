@@ -15,4 +15,7 @@ class Solver
         end
         word
     end
+
+    def fizzbuzz(n)
+    end
 end
